@@ -36,6 +36,7 @@ function renderTime(){
     //Time End
     
     //Displaying it
+        var myclock = document.getElementsByClassName("body_timebar");
         var myClock = document.getElementById("ClockRasel");
         myClock.textContent = "" + dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +year+ " | " +h+ ":" +m+ ":" +s;
         myClock.innerText = "" + dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +year+ " | " +h+ ":" +m+ ":" +s;
