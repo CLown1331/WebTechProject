@@ -1,11 +1,11 @@
 //Egu amar lekha code re copyright @DRW
-function renderTime(){
+function renderTime() {
     //Date start
     var myDate = new Date();
     var year = myDate.getYear();
-        if(year < 1000){
-            year+= 1900
-        }
+    if (year < 1000) {
+        year += 1900;
+    }
     var day = myDate.getDay();
     var month = myDate.getMonth();
     var daym = myDate.getDate();
@@ -19,19 +19,23 @@ function renderTime(){
     var h = currentTime.getHours();
     var m = currentTime.getMinutes();
     var s = currentTime.getSeconds();
-        if(h==24){
-            h = 0;
-        }else if(h>12){
-            h = h-0;
+    if (h==24) {
+        h = 0;
         }
-        if(h>10){
-            h = "0" + h;
+    else if (h>12) {
+        h = h-0;
         }
-        if(m<10){
-            m = "0" + m;
+        
+    if (h>10) {
+        h = "0" + h;
         }
-        if(s < 10){
-            s ="0" + s;
+        
+    if (m<10) {
+        m = "0" + m;
+        }
+        
+    if (s < 10) {
+        s ="0" + s;
         }
     //Time End
     
