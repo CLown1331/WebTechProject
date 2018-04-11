@@ -1,0 +1,53 @@
+
+/****  KIRON FONT test by palo team as R&D  purpose ***/
+
+@font-face {
+  font-family: 'kiron';
+  src:  url('font/kiron/kiron.eot');
+  src: url('font/kiron/kiron.eot?#iefix') format('embedded-opentype'),
+      /* url('font/kiron/kiron.woff2') format('woff2'), */ /* Super Modern Browsers */
+       url('font/kiron/kiron.woff') format('woff'), 
+       url('font/kiron/kiron.ttf')  format('truetype'),
+	   url('font/kiron/kiron.otf')  format('truetype'),
+       url('font/kiron/kiron.svg#svgFontName') format('svg'); 
+	   font-style:normal;   
+	   font-weight:normal;
+}
+
+@font-face {
+  font-family: 'kiron';
+  src:  url('font/kiron/kironBold.eot'); 
+  src: url('font/kiron/kironBold.eot?#iefix') format('embedded-opentype'), 
+      /* url('font/kiron/kiron.woff2') format('woff2'), */ /* Super Modern Browsers */
+       url('font/kiron/kironBold.woff') format('woff'), 
+       url('font/kiron/kironBold.ttf')  format('truetype'), 
+	   url('font/kiron/kironBold.otf')  format('opentype'),
+       url('font/kiron/kironBold.svg#svgFontName') format('svg');
+	   font-style:normal;	  
+	   font-weight:bold;
+}
+
+@font-face {
+  font-family: 'kiron';
+  src:  url('font/kiron/kironItalic.eot'); 
+  src: url('font/kiron/kironItalic.eot?#iefix') format('embedded-opentype'), 
+      /* url('font/kiron/kiron.woff2') format('woff2'), */ /* Super Modern Browsers */
+       url('font/kiron/kironItalic.woff') format('woff'), 
+       url('font/kiron/kironItalic.ttf')  format('truetype'), 
+	   url('font/kiron/kironItalic.otf')  format('opentype'),
+       url('font/kiron/kironItalic.svg#svgFontName') format('svg');
+	   font-style:italic;
+	   font-weight:normal;
+}
+@font-face {
+  font-family: 'kiron';
+  src:  url('font/kiron/kironBoldItalic.eot'); 
+  src: url('font/kiron/kironBoldItalic.eot?#iefix') format('embedded-opentype'), 
+      /* url('font/kiron/kiron.woff2') format('woff2'), */ /* Super Modern Browsers */
+       url('font/kiron/kironBoldItalic.woff') format('woff'), 
+       url('font/kiron/kironBoldItalic.ttf')  format('truetype'), 
+	   url('font/kiron/kironBoldItalic.otf')  format('opentype'),
+       url('font/kiron/kironBoldItalic.svg#svgFontName') format('svg');
+	   font-style:italic;
+	   font-weight:bold;
+}

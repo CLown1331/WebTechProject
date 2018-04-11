@@ -9,69 +9,160 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1 initial-scale=1 maximum-scale=1 user-scalable=0">
         <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="CSS/jquery-ui-1.9.2.custom.min.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/swiper.min.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/styles.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/font-jade-embedded.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/styles2.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/widget_style.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/colors.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/common_styles.css" media="all" rel="stylesheet" type="text/css">
+            <link href="CSS/print.css" media="print" rel="stylesheet" type="text/css">
+
+
+            <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+            <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+
+            <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+            <script type="text/javascript" src="js/jquery-ui-timepicker-addon.js"></script>
+            <script type="text/javascript" src="js/jquery.jw.ari.js"></script>
+            <script type="text/javascript" src="js/custom.js"></script>
+            <script type="text/javascript" src="js/fade.js"></script>	
+
+
+                        <!--auto refresh home page -->
+            <meta http-equiv="refresh" content="900">
+
+              <script async="" src="js/chartbeat_mab.js"></script>
+
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-11355905-1');
+            </script>
+
+            <script>
+                function detectmob() { 
+                    if( navigator.userAgent.match(/Android/i) 
+                       || navigator.userAgent.match(/webOS/i)
+                       || navigator.userAgent.match(/iPhone/i)
+                       || navigator.userAgent.match(/iPad/i)
+                       || navigator.userAgent.match(/iPod/i)
+                       || navigator.userAgent.match(/BlackBerry/i)
+                       || navigator.userAgent.match(/Windows Phone/i))
+                    {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+            </script>
+
+
+
+        <link type="text/css" href="CSS/paloweb_content_style.css" media="all" rel="stylesheet">
+
+        <link type="text/css" href="CSS/palo_modification.css" media="all" rel="stylesheet">
+
+        <link type="text/css" href="CSS/fontembeed.css" media="all" rel="stylesheet">
+
         <script type="text/jscript" src="js/bootstrap.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400" rel="stylesheet">
         <link href="CSS/style.css" rel="stylesheet" type="text/css" />
         <script src="js/TimeScript.js" type="text/javascript"></script>
     </head>
+    
+    
     <body onLoad="renderTime();">
-       <div class="container">
+       <div class="whole_wrapper">
+           <div class="whole_inner">
             <div class="header_wrap " style="box-shadow: rgb(0, 0, 0) 0px 5px 5px -5px; border-bottom: 0px none;">
 				<div class="header">
+                    
+                    
 					<!--logo-->
                     <h1 class="site_logo">
 						<a href="/"><img height="46" src="img/Prothom-Alo.png" alt="প্রথম আলো"></a>
 					</h1>
 					<div class="header_right_part">
 						<div class="header_right_inner">
-							<span class="more_main_menu"><span>সব</span></span>
+							<span class="more_main_menu"><span>সব</span>
+                            </span>
 							<div class="more_main_menu_wrap">
 								<div class="more_main_menu_inner">
-									<span class="close_more_main"></span>
+									<span class="close_more_main">
+                                    </span>
 									<div class="top_big_menu big_menu">
 										<div class="big_menu_top">
                                             <div class="all-menu">
-													  <ul id="13">
-                                                          <li class="menu_page_id_37 menu_color_"><a class="static " href="/home">প্রচ্ছদ</a></li><li class="menu_page_id_102 menu_color_"><a class="dynamic " href="/bangladesh">বাংলাদেশ</a></li><li class="menu_page_id_153 menu_color_"><a class="dynamic " href="/international">আন্তর্জাতিক</a></li><li class="menu_page_id_189 menu_color_"><a class="dynamic " href="/economy">অর্থনীতি</a></li><li class="menu_page_id_246 menu_color_"><a class="dynamic " href="/opinion">মতামত</a></li><li class="menu_page_id_216 menu_color_"><a class="dynamic " href="/sports">খেলা</a></li><li class="menu_page_id_390 menu_color_"><a class="dynamic " href="/entertainment">বিনোদন</a></li><li class="menu_page_id_1051 menu_color_"><a class="dynamic " href="/cartoon">কার্টুন</a></li><li class="menu_page_id_474 menu_color_"><a class="static " href="/features">ফিচার</a></li><li class="menu_page_id_324 menu_color_"><a class="dynamic " href="/technology">বিজ্ঞান ও প্রযুক্তি</a></li><li class="menu_page_id_285 menu_color_"><a class="dynamic " href="/life-style">জীবনযাপন</a></li><li class="menu_page_id_363 menu_color_"><a class="dynamic " href="/education">শিক্ষা</a></li><li class="menu_page_id_463 menu_color_"><a class="dynamic " href="/art-and-literature">শিল্প ও সাহিত্য</a></li><li class="menu_page_id_438 menu_color_"><a class="dynamic " href="/we-are">আমরা</a></li><li class="menu_page_id_493 menu_color_"><a class="dynamic " href="/pachmisheli">পাঁচমিশালি</a></li><li class="menu_page_id_504 menu_color_"><a class="dynamic " href="/special-supplement">বিশেষ সংখ্যা</a></li><li class="menu_page_id_536 menu_color_"><a class="dynamic " href="/northamerica" target="_blank">উত্তর আমেরিকা</a></li></ul>												 </div>
-												 <script type="text/javascript">
+												<ul id="13">
+                                                    <li class="menu_page_id_37 menu_color_"><a class="static " href="index.html">প্রচ্ছদ</a></li>
+                                                    <li class="menu_page_id_102 menu_color_"><a class="dynamic " href="bangladesh.html">বাংলাদেশ</a></li>
+                                                    
+                                                    <li class="menu_page_id_153 menu_color_"><a class="dynamic " href="international.html">আন্তর্জাতিক</a></li>
+                                                          
+                                                    <li class="menu_page_id_189 menu_color_"><a class="dynamic " href="economics.html">অর্থনীতি</a></li>
+                                                    
+                                                    <li class="menu_page_id_216 menu_color_"><a class="dynamic " href="sports.html">খেলা</a></li>
+                                                    
+                                                    <li class="menu_page_id_390 menu_color_"><a class="dynamic " href="entertainment.html">বিনোদন</a></li>
+                                                    
+                                                    
+                                                        <li class="menu_page_id_1051 menu_color_"><a class="dynamic " href="/cartoon">কার্টুন</a></li> 
+                                                   
+                                                    
+                                                    <li class="menu_page_id_474 menu_color_"><a class="static " href="feature.html">ফিচার</a></li>
+                                                   
+                                                    <li class="menu_page_id_324 menu_color_"><a class="dynamic " href="/technology">বিজ্ঞান ও প্রযুক্তি</a></li>
+                                                    
+                                                    <li class="menu_page_id_285 menu_color_"><a class="dynamic " href="/life-style">জীবনযাপন</a></li>
+                                                    
+                                                    <li class="menu_page_id_363 menu_color_"><a class="dynamic " href="/education">শিক্ষা</a></li>
+                                                    
+                                                    <li class="menu_page_id_463 menu_color_"><a class="dynamic " href="/art-and-literature">শিল্প ও সাহিত্য</a></li>
+                                                    
+                                                    <li class="menu_page_id_438 menu_color_"><a class="dynamic " href="/we-are">আমরা</a></li>
+                                                    
+                                                    <li class="menu_page_id_493 menu_color_"><a class="dynamic " href="/pachmisheli">পাঁচমিশালি</a></li>
+                                                    
+                                                    <li class="menu_page_id_504 menu_color_"><a class="dynamic " href="/special-supplement">বিশেষ সংখ্যা</a></li>
+                                                    <li class="menu_page_id_536 menu_color_"><a class="dynamic " href="/northamerica" target="_blank">উত্তর আমেরিকা</a></li>
+                                                    
+                                                </ul>												
+                                            </div>
+                                            <script type="text/javascript">
 													  jw_menu_fixer('.footer_menu','navigation');
-												 </script>
-												 												 <div class="special_menu">
-													<ul>
-														<li><a class="image_menu_icon" href="/photo">ছবি</a></li>
-														<li><a class="video_menu_icon" href="/video">ভিডিও</a></li>
-														<li><a class="archive_menu_icon" href="/archive">আর্কাইভ</a></li>
-													  </ul>
-												 </div>
-											</div>
+                                            </script> 												 
+                                            <div class="special_menu">
+                                                <ul>
+                                                    <li><a class="image_menu_icon" href="#">ছবি</a></li>
+                                                    <li><a class="video_menu_icon" href="#">ভিডিও</a></li>
+                                                    <li><a class="archive_menu_icon" href="#">আর্কাইভ</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
 										<div class="big_menu_bottom">
 											<div class="bmenu_bottom_left">
-																								<div class="bmenu_bottom_toplinks">
-													 <ul id="6"><li class="menu_page_id_540 menu_color_"><a class="static " href="/advertise" target="_blank">বিজ্ঞাপন</a></li><li class="menu_page_id_544 menu_color_"><a class="static " href="/circulation" target="_blank">সার্কুলেশন</a></li><li class="menu_page_id_820 menu_color_"><a class="static " href="/hajj" target="_blank">পবিত্র হজ</a></li><li class="menu_page_id_736 menu_color_"><a class="dynamic archive" href="/durporobash" target="_blank">দূর পরবাস</a></li><li class="menu_page_id_536 menu_color_"><a class="dynamic " href="/northamerica" target="_blank">উত্তর আমেরিকা</a></li></ul>												  </div>
-												  <script type="text/javascript">
-											jw_menu_fixer('.footer_menu','navigation');
-										</script>
-																						  <div class="bmenu_bottom_imagelinks">
-														<ul>
-										<li><a href="http://www.prothomalo.com/2221" target="_blank"><span><img src="http://paimages.prothom-alo.com/contents/themes/public/style/images/2221_icon.png"></span>২২২১</a></li>
-											<li><a href="http://www.prothomalo.com/trust" target="_blank"><span><img src="http://paimages.prothom-alo.com/contents/themes/public/style/images/trust_icon.png"></span>ট্রাস্ট</a></li>
-											<li><a href="http://www.prothomalo.com/protichinta" target="_blank"><span><img src="http://paimages.prothom-alo.com/contents/themes/public/style/images/pchinta_icon.png"></span>প্রতিচিন্তা</a></li>
-											<li><a href="http://www.chakri.com/?utm_source=Palo-Navigation-Menu&amp;utm_medium=In-House&amp;utm_campaign=Palo" target="_blank"><span><img src="http://paimages.prothom-alo.com/contents/themes/public/style/images/chakridot_icon.png"></span>চাকরি ডটকম</a></li>
-											
-<li><a href="http://bit.ly/1yJDU9O" target="_blank" rel="nofollow"><span><img src="http://paimages.prothom-alo.com/contents/themes/public/style/images/abcradio_icon.png"></span>abc রেডিও</a></li>
-
-<li><a href="http://www.prothomalo.com/bondhushava" target="_blank"><span><img src="http://paimages.prothom-alo.com/contents/uploads/media/2017/06/12/590679d8369d61d451b1076ef176926d-593e579b0f1b3.png"></span></a></li>									  
-
-</ul>												  </div>
-											 </div>
-											 
-										</div>
-									  </div>
-								</div>
-							</div>
+                                                <script type="text/javascript">
+                                                    jw_menu_fixer('.footer_menu','navigation');
+                                                </script>
+                                                <div class="bmenu_bottom_imagelinks">
+                                                    <ul>
+                                                        <li><a href="http://www.prothomalo.com/2221" target="_blank"><span><img src="img/2221_icon.png"></span>২২২১</a></li>
+                                                        <li><a href="http://www.prothomalo.com/trust" target="_blank"><span><img src="img/trust_icon.png"></span>ট্রাস্ট</a></li>
+                                                        <li><a href="http://www.prothomalo.com/protichinta" target="_blank"><span><img src="img/pchinta_icon.png"></span>প্রতিচিন্তা</a></li>
+                                                        <li><a href="http://www.chakri.com/?utm_source=Palo-Navigation-Menu&amp;utm_medium=In-House&amp;utm_campaign=Palo" target="_blank"><span><img src="img/chakridot_icon.png"></span>চাকরি ডটকম</a></li>
+                                                        <li><a href="http://bit.ly/1yJDU9O" target="_blank" rel="nofollow"><span><img src="img/abcradio_icon.png"></span>abc রেডিও</a></li>
+                                                        <li><a href="http://www.prothomalo.com/bondhushava" target="_blank"><span><img src="img/bondhusova.png"></span></a></li>									  
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 							
 							<script type="text/javascript">
 								$('.more_main_menu').click(function(){ 
@@ -98,68 +189,12 @@
 							
 							<!--site switcher-->
 							<div class="other_language_link mh_toggle">
-															<a target="_blank" href="http://en.prothomalo.com/">English</a>
-														</div>
+                                <a target="_blank" href="index.html">English</a>
+                            </div>
 							
+				<!--
 							
-							<!--user accounts-->
-							<div class="header_account_wrap mh_toggle">
-								<span class="account_toggle  click-free-pop" data-pop=".user_account">
-									<span class="profile_link_holder"></span>
-									<span class="jw_notifications_counter"></span>
-								</span>
-								<div class="user_account">
-									<div id="account_bar"><a class="login_link" id="_jadewits_login" href="https://profiles.prothom-alo.com/login/?APP_ID=1&amp;next=http%3A%2F%2Fwww.prothomalo.com%2F">লগইন</a><a class="register_link" id="_jadewits_register" href="https://profiles.prothom-alo.com/register/?APP_ID=1&amp;next=http%3A%2F%2Fwww.prothomalo.com%2F">রেজিস্টার</a></div>
-									<script type="text/javascript" src="https://profiles.prothom-alo.com/api/authentication_helper/account_bar/?contianer=account_bar&amp;APP_ID=1&amp;_hl=bn"></script>
-								</div>
-							</div>
-							
-							<!--search form-->
-							<div class="header_search_wrap">
-								<span class="search_toggle click-free-pop" data-pop=".header_seach_form"></span>
-								<div class="header_seach_form">
-									<form id="jadewits_search_form_1223" action="/search/">
-										<span class="search_close"></span>
-										<button class="search_button" type="submit"><span>অনুসন্ধান</span></button>
-										<div class="search_input_holder">
-										<input class="search_input jadewits_keyboard " name="q" data-keyboardfixedpos="32" type="text" value="" placeholder="কী খুঁজতে চান?">
-										</div>
-									</form>
-									<script type="text/javascript">
-										$('#jadewits_search_form_1223').submit(function(){
-											var search_text = $.trim($('[name=q]',this).val());
-											if( search_text == 'কী খুঁজতে চান?' || !search_text){
-												alert('Please type something to search');
-												return false;
-												}
-											return true;
-											});
-									</script>
-								</div>
-								<script type="text/javascript">$('.search_toggle').click(function(){  /*$('.header_seach_form .search_input').focus();*/});$('.header_seach_form  .search_close').click(function(){ $('.header_seach_form').toggle();});
-								
-								/*$('.header_seach_form .search_input').focus(function(){
-									$('#banglaInpTool').addClass('keyboard_top');
-									});
-								$('.header_seach_form .search_input').blur(function(){
-									$('#banglaInpTool').removeClass('keyboard_top');
-									});*/
-								
-								</script>
-							</div>
-							
-							
-							
-							<!--social links-->
-							<div class="header_social_wrap mh_toggle">
-								<span class="social_toggle click-free-pop" data-pop=".social_links"></span>
-								<div class="social_links">
-									<ul>
-										<li><a rel="nofollow" target="_blank" class="facebook" href="https://www.facebook.com/DailyProthomAlo"><span>Facebook</span></a></li>										<li><a rel="nofollow" target="_blank" class="twitter" href="https://twitter.com/ProthomAlo"><span>Twitter</span></a></li>										<li><a rel="nofollow" target="_blank" class="pinterest" href="https://www.pinterest.com/ProthomAlo"><span>Pinterest</span></a></li>										
-										<li><a rel="nofollow" target="_blank" class="googleplus" href="https://plus.google.com/+ProthomAlo"><span>Google Plus</span></a></li>										
-										<li><a rel="nofollow" target="_blank" class="youtube" href="https://www.youtube.com/c/ProthomAlo"><span>YouTube</span></a></li>																				<li><a rel="nofollow" target="_blank" class="instagram" href="https://www.instagram.com/prothomalo/"><span>Instagram</span></a></li>									</ul>
-								</div>
-							</div>
+                    -->
 						</div>
 					</div>
 					
@@ -167,17 +202,27 @@
 					<div class="header_menu_wrap">
 						<span class="main_menu_toggle"></span>
 						<div id="main_menu" class="main_menu">
-						<ul id="9"><li class="menu_page_id_102 menu_color_"><a class="dynamic " href="/bangladesh">বাংলাদেশ</a></li><li class="menu_page_id_153 menu_color_"><a class="dynamic " href="/international">আন্তর্জাতিক</a></li><li class="menu_page_id_189 menu_color_"><a class="dynamic " href="/economy">অর্থনীতি</a></li><li class="menu_page_id_246 menu_color_"><a class="dynamic " href="/opinion">মতামত</a></li><li class="menu_page_id_216 menu_color_"><a class="dynamic " href="/sports">খেলা</a></li><li class="menu_page_id_390 menu_color_"><a class="dynamic " href="/entertainment">বিনোদন</a></li><li class="menu_page_id_474 menu_color_"><a class="static " href="/features">ফিচার</a></li><li class="menu_page_id_285 menu_color_"><a class="dynamic " href="/life-style">জীবনযাপন</a></li><li class="menu_page_id_475 menu_color_"><a class="dynamic " href="/photo">ছবি</a></li><li class="menu_page_id_498 menu_color_"><a class="dynamic " href="/video">ভিডিও</a></li><li class="menu_page_id_536 menu_color_"><a class="dynamic " href="/northamerica" target="_blank">উত্তর আমেরিকা</a></li></ul>						</div>
+                            <ul id="9">
+                                <li class="menu_page_id_102 menu_color_"><a class="dynamic " href="bangladesh.html">বাংলাদেশ</a></li>
+                                <li class="menu_page_id_153 menu_color_"><a class="dynamic " href="international.html">আন্তর্জাতিক</a></li>
+                                <li class="menu_page_id_189 menu_color_"><a class="dynamic " href="economics.html">অর্থনীতি</a></li>
+                                <li class="menu_page_id_246 menu_color_"><a class="dynamic " href="opinion">মতামত</a></li>
+                                <li class="menu_page_id_216 menu_color_"><a class="dynamic " href="sports.html">খেলা</a></li>
+                                <li class="menu_page_id_390 menu_color_"><a class="dynamic " href="entertainment.html">বিনোদন</a></li>
+                                <li class="menu_page_id_474 menu_color_"><a class="static "  href="feature.html">ফিচার</a></li>
+                                <li class="menu_page_id_285 menu_color_"><a class="dynamic " href="lifeStyle.html">জীবনযাপন</a></li>
+                                <li class="menu_page_id_475 menu_color_"><a class="dynamic " href="photo">ছবি</a></li>
+                                <li class="menu_page_id_498 menu_color_"><a class="dynamic " href="video">ভিডিও</a></li>
+                                
+                            </ul>					
+                        </div>
 						<script type="text/javascript">
 							jw_menu_fixer('.main_menu','navigation');
 							//now run horizontal menu hover helper
 							//jadewits_horizontal_hover_menu({container:'.main_menu',waittime:500});
 						</script>
 					</div>
-					
-					
-					
-					
+                    
 				</div>	
 			</div>
             
@@ -188,15 +233,14 @@
                 </div>
                 
                 <div class="leftSideBar">
-                    <div id="ClockRasel" class="body_timebar container">
-                    </div>
+                    <!-- <div id="ClockRasel" class="body_timebar container">
+                    </div> -->
 
                     <section class="kheladhula_start">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <p><span class="glyphicon glyphicon-tag" aria-hidden="true">Khela</span></p>
-                                <hr />
+                            
                             </div>
                         </div>
 
@@ -610,6 +654,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <script type="text/jscript" src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="></script>
