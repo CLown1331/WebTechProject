@@ -1,0 +1,213 @@
+body, html {
+    background-color: #fff;
+}
+
+/************** Single Content *****************/
+
+.single-content {
+    margin-bottom: 16px;
+    line-height: 31px;
+    margin-right: 24px;
+    font-weight: normal;
+}
+
+.single-content a {
+    cursor: pointer;
+    border-left: 4px solid #e21e1e;
+    font-size: 26px;
+    padding: 0 10px;
+    color: #4a4a4a;
+}
+
+/**************** End Single Content ********************/
+
+/***************** Navbar Starts ****************************/
+
+.navbar-toggler{
+    display: none;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+}
+.navbar-nav {
+    padding-left: 0px;
+}
+.navbar-nav li{
+    list-style: none;
+}
+.main-menu{
+    background: rgba(0, 0, 0, 0.2);;
+}
+.menu-area{
+    background: url(asset/img/header-back.png);
+    margin-top: 60px;
+}
+.navbar {
+    min-height: auto;
+    margin-bottom: 0px;
+    border: 0px solid #222;
+}
+.navbar-nav>li>a {
+    display: block;
+    padding: 15px;
+    color: #000;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.top-bar .navbar-nav>li>a {
+    padding: 20px;
+    padding-bottom: 17px;
+    border-bottom: 3px solid transparent;
+}
+.navbar-nav>li>a:hover{
+    border-bottom: 3px solid #cd2222;
+}
+.top-bar .navbar-nav>li>a:hover{
+    background: #efefec;
+}
+.navbar-fixed-top {
+    background: #fff;
+    box-shadow: rgb(0, 0, 0) 0px 5px 5px -5px;
+}
+
+.pic-area h2 a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.pic-area h2{
+    margin: 0px;
+    padding: 13px 0px;
+}
+.logo{
+    float: left;
+    padding-top: 5px;
+}
+.top-bar .navbar-nav{
+    padding-left: 68px;
+}
+.social{
+    float: right;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.social li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    
+}
+.social a {
+    color: black;
+}
+.all-menu{
+    border-right: 1px solid #ddd;
+    position: absolute;
+    margin-left: -40px;
+    height: 40px;
+    top: 9px;
+    vertical-align: middle;
+    padding: 11px !important;
+    color: #99A1C1;
+}
+.glyphicon-align-justify{
+    margin-right: 37px;
+    padding-top: 21px;
+}
+
+/***************** Navbar Ends ****************************/
+
+/****************** Pictures First Section Starts *******************************/
+
+.news-section {
+	background: #f2f2f2;
+	display: block;
+    min-height: 210px;
+    margin-bottom: 30px;
+}
+.news-section img:hover {
+    opacity: 0.7;
+}
+.news-section h2:hover {
+    color: #0000ff;
+}
+.news-section a {
+	text-decoration: none;
+    color: #000;
+}
+.news-section a h2 {
+	padding: 0 6px;
+    font-size: 18px;
+}
+
+/****************** Pictures First Section Ends *******************************/
+
+
+/*------------------------------------*/
+/* FOOTER TOP */
+/*-----------------------------------*/
+
+.footer-first {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rightside p {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.rightside img {
+	width: 120px;
+	height: 35px;
+}
+
+.footer-second {
+	background-color: gray;
+}
+.boro_chobi img{
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}
+.news-details {
+    background: #fff;
+}
+
+
+.footer-top 
+{
+	background-color: #212121;
+	color: #E0E0E0;
+}
+
+.footer-top a
+{
+	color: #E0E0E0;
+}
+
+
+.footer-top a:hover
+{
+	color: orange;
+	text-decoration: none;
+}
+
+
+.divider
+{
+	border-top: solid 2px black;
+	font-size: 14px;
+}
+
+
+.dark-footer
+{
+	background-color: black;
+	color: #E0E0E0;
+	word-spacing: 2px;
+}

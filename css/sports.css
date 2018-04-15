@@ -1,0 +1,388 @@
+body, html{
+	font-family: 'Arial', cursive;
+}
+body, html {
+    background-color: #fff;
+}
+
+/************** Single Content *****************/
+
+.single-content {
+    margin-bottom: 16px;
+    line-height: 31px;
+    margin-right: 24px;
+    font-weight: normal;
+}
+
+.single-content a {
+    cursor: pointer;
+    border-left: 4px solid #e21e1e;
+    font-size: 26px;
+    padding: 0 10px;
+    color: #4a4a4a;
+}
+
+/**************** End Single Content ********************/
+
+/***************** Navbar Starts ****************************/
+
+.navbar-toggler{
+    display: none;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+}
+.navbar-nav {
+    padding-left: 0px;
+}
+.navbar-nav li{
+    list-style: none;
+}
+.main-menu{
+    background: rgba(0, 0, 0, 0.2);;
+}
+.menu-area{
+    background: url(asset/img/sports-background.png);
+    margin-top: 60px;
+}
+.navbar {
+    min-height: auto;
+    margin-bottom: 0px;
+    border: 0px solid #222;
+}
+.navbar-nav>li>a {
+    display: block;
+    padding: 15px;
+    color: #000;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.top-bar .navbar-nav>li>a {
+    padding: 20px;
+    padding-bottom: 17px;
+    border-bottom: 3px solid transparent;
+}
+.navbar-nav>li>a:hover{
+    border-bottom: 3px solid #cd2222;
+}
+.top-bar .navbar-nav>li>a:hover{
+    background: #efefec;
+}
+.navbar-fixed-top {
+    background: #fff;
+    box-shadow: rgb(0, 0, 0) 0px 5px 5px -5px;
+}
+
+.pic-area h2 a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.pic-area h2{
+    margin: 0px;
+    padding: 13px 0px;
+}
+.logo{
+    float: left;
+    padding-top: 5px;
+}
+.top-bar .navbar-nav{
+    padding-left: 68px;
+}
+.social{
+    float: right;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.social li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    
+}
+.social a {
+    color: black;
+}
+.all-menu{
+    border-right: 1px solid #ddd;
+    position: absolute;
+    margin-left: -40px;
+    height: 40px;
+    top: 9px;
+    vertical-align: middle;
+    padding: 11px !important;
+    color: #99A1C1;
+}
+.glyphicon-align-justify{
+    margin-right: 37px;
+    padding-top: 21px;
+}
+
+/***************** Navbar Ends ****************************/
+
+/***************** Sports Main Starts ****************************/
+
+.sports-main {
+    margin-top: 30px;
+}
+
+.main-pic {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.main-pic h2 {
+    color: #ffc107;
+}
+
+.main-pic img:hover {
+    opacity: 0.7;
+}
+
+.main-pic h2:hover {
+    color: #fff;
+}
+
+.sub-pic {
+    position: relative;
+    text-align: left;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.sub-pic img {
+    filter: brightness(50%);
+}
+
+.sub-pic h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.sub-pic img:hover {
+    filter: brightness(70%);
+}
+
+.sub-pic h2:hover {
+    color: #ffc107;
+}
+
+
+/***************** Sports Main  Ends ****************************/
+
+
+
+.main-khobor {
+	margin-top: 30px;
+	background-color: #d2d2d2;
+}
+
+/******************* News Category Starts ************************/
+
+.news-category a h2, .news_update a h2, .single_content a h2 {
+	color: #111;
+	border-left: 4px solid #e21e1e;
+	padding-left: 10px;
+    font-size: 25px;
+}
+
+.list-group a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.list-group a:hover {
+    color: #0000ff;
+}
+
+/******************* News Category Ends ************************/
+
+/******************* Sports Update Starts ************************/
+
+.news-pic img {
+	width: 210px;
+	height: 112px;
+}
+
+.news-pic img:hover {
+	opacity: 0.7;
+}
+
+.sports-news-update {
+	margin-bottom: 20px;
+}
+
+.news-details {
+	height: 112px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.news-details a {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.news-details h4 {
+    color: #000000;
+}
+
+.news-details h4:hover {
+    color: #0000ff;
+}
+
+.news-details p {
+    color: #1f1f1f;
+}
+
+/******************* Sports Update Ends ************************/
+
+/************************ Gallery Starts ********************************/
+
+.single_content {
+	margin-bottom: 20px;
+}
+
+.content_img_title img {
+	width: 267px;
+	height: 175px;
+}
+.content_img_title img:hover {
+	opacity: 0.7;
+}
+
+.content_img_title a {
+	text-decoration: none;
+    cursor: pointer;
+}
+
+.content_img_title a p:hover {
+	color: #0000ff;
+}
+
+.content_img_title p {
+	font-size: 17px;
+	color: #111;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 9px;
+	width: 268px;
+}
+
+.content_news {
+	padding-top: 10px;
+	height: 80px;
+	background-color: #fff;
+	width: 268px;
+	margin-left: 15px;
+	margin-top: -10px;
+	border-top: 1px solid #ded2d2;
+}
+.content_news_img img {
+	width: 93px;
+	height: 47px;
+}
+.content_news_img img:hover {
+	opacity: 0.7;
+}
+
+.content_news_details a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content_news_details p {
+	font-size: 14px;
+	margin-left: 29px;
+	color: #111;
+	font-weight: bold;
+	padding-left: 6px;
+}
+
+.content_news_details p:hover {
+	color: #0000ff;
+}
+
+/************************ Gallery Ends ********************************/
+
+/*------------------------------------*/
+/* FOOTER TOP */
+/*-----------------------------------*/
+
+.footer-first {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rightside p {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.rightside img {
+	width: 120px;
+	height: 35px;
+}
+
+.footer-second {
+	background-color: gray;
+}
+.boro_chobi img{
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}
+.news-details {
+    background: #fff;
+}
+
+
+.footer-top 
+{
+	background-color: #212121;
+	color: #E0E0E0;
+}
+
+.footer-top a
+{
+	color: #E0E0E0;
+}
+
+
+.footer-top a:hover
+{
+	color: orange;
+	text-decoration: none;
+}
+
+
+.divider
+{
+	border-top: solid 2px black;
+	font-size: 14px;
+}
+
+
+.dark-footer
+{
+	background-color: black;
+	color: #E0E0E0;
+	word-spacing: 2px;
+}
+
